@@ -1,0 +1,108 @@
+:root {
+	--vermelha: #E50914;
+	--preta: #141414;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*elemento principal*/
+
+body {
+	background: var(--preta);
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+header .container{
+	margin-left: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo {
+	margin-left: 5px;
+	color: var(--vermelha);
+	font-family: 'Arial Black';
+	font-size: 25px;
+}
+
+header nav a {
+	text-decoration: none; /*remove o sublinhado dos links*/
+	color: #AAA; /*pesquisar colorpic*/
+	margin-right: 10px;
+}
+
+header nav a:hover{ /*efeito quando passa o mouse em cima*/
+	color: #fff;
+}
+
+/*filme principal*/
+.filme-principal {
+	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa.jpg');
+	/*da uma esfumaçada na imagem pra aumentar o contraste com as letras brancas*/
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.filme-principal .container {
+	margin-left: 20px;
+	margin-bottom: 90px;
+	width: 70%;
+}
+
+.filme-principal .descricao {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+	margin-top: 20%;
+	font-size: 40px;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+	background-color: rgba(0,0,0,.50);
+	border: none;
+	color: white;
+
+	padding: 15px 30px;
+	margin-right: 15px;
+	font-size: 15px;
+
+	cursor: pointer;
+	transition: .3seg ease all;
+}
+
+.botao:hover{
+	background-color: white;
+	color: black;
+}
+
+.botao i{
+	margin-right: 8px;
+}
+
+.owl-box-filme {
+	height: 100%;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+}
+
+.carrousel-filmes {
+	margin-top: 5px;
+}
