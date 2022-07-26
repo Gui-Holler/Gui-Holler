@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript - Casting</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <h1>Casting</h1>
+
+    <script>
+        /*Operadores de comparação (Condicionais)
+        Igual (=) - verifica se os valores comparados são iguais
+        Idêntico (===) - verifica se os valores comparados são iguais e do mesmo tipo
+        Diferente (!=) - verifica se os valores comparados são diferentes
+        Não Idênticos (!==) - verifica se os valores comparados são diferentes e de tipos diferentes
+        Menor (<) - verifica se o valor da esquerda é menor que o valor da direita
+        Maior (>) - verifica se o valor da esquerda é maior que o valor da direita
+        Menor igual (<=) - verifica se o valor da esquerda é menor ou igual ao valor da direita
+        Maior igual (>=) - verifica se o valor da esquerda é maior ou igual ao valor da direita
+        */
+
+        var variavel1 = prompt('Digite algum número: ')
+        var variavel2 = prompt('Digite outro número: ')
+            //converter string em number
+        variavel1 = parseInt(variavel1)
+        variavel2 = parseFloat(variavel2)
+
+        document.write(variavel1 + variavel2)
+
+        /*converter de number para string
+        document.write(variavel1.toString() + variavel2.toString())
+        */
+    </script>
+</body>
+
+</html>
