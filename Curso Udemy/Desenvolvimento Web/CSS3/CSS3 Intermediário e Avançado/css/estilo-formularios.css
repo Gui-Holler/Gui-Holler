@@ -1,0 +1,45 @@
+/*******************************
+Estilizando formulários*/
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset {
+    margin: 1em 0em;
+    padding: 1em;
+    border: 1px solid black;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+    /*deixa o texto negrito*/
+}
+
+label {
+    display: block;
+    /*faz com que o texto fique acima da caixa de texto*/
+    cursor: pointer;
+    /*muda a seta do cursos para mão de ícone*/
+}
+
+imput {
+    /*input[type="text"] */
+    width: 20em;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+input.radio,
+input.checkbox,
+input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 1em;
+}

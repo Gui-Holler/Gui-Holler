@@ -1,0 +1,40 @@
+/*******************************
+Estilizando Tabelas*/
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: separate;
+    /*ou "collapse"*/
+}
+
+th,
+td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    /*deixa todas as letras maiúsculas*/
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+    /*aumenta o espaçamento entre as letras*/
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+.numero {
+    text-align: right;
+}
