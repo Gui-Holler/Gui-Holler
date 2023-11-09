@@ -1,6 +1,7 @@
 # 👋🏻 Guilherme Holler
 
-Desenvolvedor front-end em constante evolução, apaixonado pelo aprendizado e gamer nas horas vagas.
+### Meu nome é Guilherme sou de Curitiba - PR, porém resido atualmente em Balneário Camboriú-SC, sou desenvolvedor Frontend Jr, estou ingressando na área de tecnologia.
+### Atualmente cursando Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá, no polo de Balneário Camboriú-SC.
 
 ### Conecte-se comigo
 
